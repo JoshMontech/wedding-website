@@ -6,14 +6,14 @@ const hammersmithOne = Hammersmith_One({ subsets: ["latin"], weight: '400' });
 
 const RsvpCard = () => {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full flex-1 flex flex-col">
         <Image src="/invitation.webp" alt="invitation" height={600} width={700} className="absolute w-full h-full object-cover z-[-1]" />
-        <div className="flex flex-col justify-center items-center gap-10 text-2xl scale-75 p-20 relative text-white bg-gray-500 bg-opacity-50">
+        <div className="flex flex-col justify-center items-center gap-10 text-[4vw] lg:text-2xl p-12 lg:p-20 relative text-white bg-gray-500 bg-opacity-50 lg:scale-75 flex-1">
             <div className={``}>TOGETHER WITH THEIR FAMILIES</div>
-            <div className={`text-8xl ${hammersmithOne.className}`}>JOSH MONTGOMERY</div>
+            <div className={`text-[8vw] lg:text-8xl ${hammersmithOne.className}`}>JOSH MONTGOMERY</div>
             <div className={`flex gap-8`}><Divider width={100} height={10} rounded={true} color={'white'} /> AND <Divider width={100} height={10} rounded={true} color={'white'}/></div>
-            <div className={`text-8xl ${hammersmithOne.className}`}>BEKAH MAE CURRAN</div>
-            <div>INVITE YOU TO JOIN THEM IN CELEBRATING THEIR UNION</div>
+            <div className={`text-[8vw] lg:text-8xl ${hammersmithOne.className}`}>BEKAH MAE CURRAN</div>
+            <div className="text-center">INVITE YOU TO JOIN THEM IN CELEBRATING THEIR UNION</div>
             <div className="py-3"><Divider width={100} height={10} rounded={true} color={'white'}/></div>
             <div className="text-center">
                 <div className={`${hammersmithOne.className} text-3xl`}>April 19, 2025</div>
