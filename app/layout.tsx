@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${montserrat.className}`}>
+      <body className={`text-black ${montserrat.className}`}>
         <NavBar />
         <main className="flex min-h-[calc(100vh-100px)]">{children}</main>
       </body>
