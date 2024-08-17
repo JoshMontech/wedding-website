@@ -8,10 +8,7 @@ const Section = ({
   children: ReactNode;
   className?: string;
 }) => {
-  const classes = clsx(
-    "w-full h-auto min-h-[calc(100vh-100px)] relative",
-    className
-  );
+  const classes = clsx("w-full min-h-[calc(100vh-100px)] relative", className);
   return <div className={classes}>{children}</div>;
 };
 
