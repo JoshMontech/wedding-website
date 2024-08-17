@@ -15,7 +15,7 @@ const MobileContent = () => {
           width={1352}
           height={2048}
           className="size-full object-cover"
-          src="/aboutus.jpg"
+          src="/details.jpg"
         />
       </div>
       <div className="absolute bg-white-primary/70 z-10 w-full h-full flex-1 flex flex-col px-8 gap-4 items-center justify-start pt-16">
@@ -39,7 +39,7 @@ const DesktopContent = () => {
           width={1352}
           height={2048}
           className="size-full object-cover"
-          src="/aboutus.jpg"
+          src="/details.jpg"
         />
       </div>
     </div>

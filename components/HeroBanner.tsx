@@ -19,6 +19,7 @@ const HeroBanner = () => {
         width={2048}
         height={1352}
         fetchPriority="high"
+        loading="eager"
         className="object-cover h-full w-full"
         src="/herobanner.jpg"
         alt="hero-banner"
