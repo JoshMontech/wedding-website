@@ -86,7 +86,7 @@ const NavBar = () => {
   const scrollToSection = useSmoothScroll();
 
   return (
-    <header className="z-20 sticky top-0 left-0 w-full border-box border-b h-[99px] bg-white-primary flex px-4 justify-between items-center">
+    <header className="z-20 sticky top-0 left-0 w-full border-box h-[100px] shadow-[0_2px_1px_-1px_lightgray;] bg-white-primary flex px-4 justify-between items-center">
       <Logo onClick={() => scrollToSection("hero")} />
       {isDesktop ? <DesktopHeaderItems /> : <MobileHeaderItems />}
     </header>
