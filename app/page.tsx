@@ -6,6 +6,7 @@ import Links from "@/components/Links";
 import Schedule from "@/components/Schedule";
 import Section from "@/components/Section";
 import TravelInfo from "@/components/TravelInfo";
+import useSectionIntersection from "./hooks/useSectionIntersection";
 
 export default function Home() {
   return (
