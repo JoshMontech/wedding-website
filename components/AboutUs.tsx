@@ -19,8 +19,15 @@ const MobileContent = () => {
         />
       </div>
       <div className="absolute bg-white-primary/70 z-10 w-full h-full flex-1 flex flex-col px-8 gap-4 items-center justify-start pt-16">
-        <h3 className={`text-5xl ${hammersmithOne}`}>OUR STORY</h3>
-        <div className="text-3xl">Coming Soon...</div>
+        <h3 className={`text-4xl ${hammersmithOne}`}>OUR STORY</h3>
+        <div className="">
+          We met nearly 6 years ago on Hinge in April 2019. Our first date, we
+          met at a coffee shop and loved the date so much we stayed until they
+          closed. The rest is history; since then we&apos;ve been to 5
+          countries, 2 world wonders, and many other adventures along the way.
+          We&apos;re looking forward to furthering our journey as we take this
+          next step in marriage!
+        </div>
       </div>
     </div>
   );
@@ -39,8 +46,15 @@ const DesktopContent = () => {
         />
       </div>
       <div className="h-full flex-1 flex flex-col px-8 gap-4 items-center justify-center">
-        <h3 className={`text-5xl ${hammersmithOne}`}>OUR STORY</h3>
-        <div className="text-3xl">Coming Soon...</div>
+        <h3 className={`text-6xl ${hammersmithOne}`}>OUR STORY</h3>
+        <div className="lg:text-sm lg:max-w-[600px]">
+          We met nearly 6 years ago on Hinge in April 2019. We met at a coffee
+          shop and loved the date so much we stayed until they closed. The rest
+          is history; since then we&apos;ve been to 5 countries, 2 world
+          wonders, and many other adventures along the way. We&apos;re looking
+          forward to furthering our journey as we take this next step in
+          marriage!
+        </div>
       </div>
     </div>
   );
