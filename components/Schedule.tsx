@@ -97,7 +97,7 @@ const FamilyContent: React.FC = () => {
   const schedule: ScheduleItem[] = [
     {
       day: "Friday",
-      events: ["(7pm) Welcome Dinner @ Jester King Brewery"],
+      events: ["Welcome Dinner @ TBD"],
     },
     {
       day: "Saturday",
