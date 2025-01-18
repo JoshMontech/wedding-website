@@ -9,7 +9,7 @@ const HeroBanner = () => {
       <div className="absolute z-10 top-16 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4">
         <span className="text-semibold text-xl">Let&apos;s Celebrate</span>
         <h1
-          className={`text-bold text-4xl lg:text-6xl ${hammersmithOne} text-nowrap`}
+          className={`text-bold text-4xl lg:text-6xl ${hammersmithOne.className} text-nowrap`}
         >
           BEKAH & JOSH
         </h1>

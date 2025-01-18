@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import { AttendeeTypeModal } from "@/components/AttendeeTypeModal";
 import Details from "@/components/Details";
 import Faq from "@/components/Faq";
 import HeroBanner from "@/components/HeroBanner";
@@ -6,7 +7,6 @@ import Links from "@/components/Links";
 import Schedule from "@/components/Schedule";
 import Section from "@/components/Section";
 import TravelInfo from "@/components/TravelInfo";
-import useSectionIntersection from "./hooks/useSectionIntersection";
 
 export default function Home() {
   return (
@@ -32,6 +32,7 @@ export default function Home() {
       <Section id="links" className="h-[calc(100vh-100px)]">
         <Links />
       </Section>
+      <AttendeeTypeModal />
     </div>
   );
 }
