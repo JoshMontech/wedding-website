@@ -10,7 +10,11 @@ import {
 } from "@/app/hooks/useAttendeeTypeStore";
 const hammersmithOne = Hammersmith_One({ subsets: ["latin"], weight: "400" });
 
-const MobileContent = ({ attendeeType }: { attendeeType: ATTENDEE_TYPE }) => {
+const MobileContent = ({
+  attendeeType,
+}: {
+  attendeeType: ATTENDEE_TYPE | null;
+}) => {
   return (
     <div className="h-full flex bg-white-primary relative">
       <div className="absolute h-full w-full z-[0]">
@@ -69,7 +73,11 @@ const MobileContent = ({ attendeeType }: { attendeeType: ATTENDEE_TYPE }) => {
   );
 };
 
-const DesktopContent = ({ attendeeType }: { attendeeType: ATTENDEE_TYPE }) => {
+const DesktopContent = ({
+  attendeeType,
+}: {
+  attendeeType: ATTENDEE_TYPE | null;
+}) => {
   return (
     <div className="h-full flex bg-white-primary">
       <div className="h-full flex-1 flex flex-col px-8 gap-4 items-center justify-center">
